@@ -1,0 +1,345 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#barra_navegaciòn ul, li{
+    list-style: none;
+}
+#barra_navegaciòn a{
+    text-decoration: none;
+}
+#barra_navegaciòn{
+    padding: 10px;
+    background-color: #265073;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#barra_navegaciòn nav ul{
+    display: flex;
+    gap: 15px;
+}
+#barra_navegaciòn nav ul li a {
+    color: white;
+}
+#barra_navegaciòn a{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#seccion-principal{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+}
+#seccion-principal .section-1 .acerca_de{
+    padding: 10px;
+    height: 200px;
+    width: 350px;
+    text-align: right;
+}
+#seccion-principal .acerca_de h2{
+    color:white ;
+}
+#seccion-principal .acerca_de p{
+color: white;
+}
+.section-1{
+    background-color: #2D9596;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2em;
+}
+.section-1 div img {
+    vertical-align: bottom;
+    height: 250px;
+}
+.section-2{
+    background-color: white;
+}
+
+.section-2 div img{
+    vertical-align: bottom;
+    width: 100%;
+}
+/*ARTICULOS - PAGINAS */
+#articulos{
+    margin: 0;
+    padding: 0;
+    position: relative  ;
+    background-color: #265073;
+    height: auto;
+    width: 100%;
+}
+.seccion-articulos{
+    background-color: #F1FADA;
+    padding-right: 38px;
+    padding-left: 38px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#articulos .trabajos h2{
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+#articulos .articulo-1{
+    padding: 2px;
+    margin: 0px;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+#articulos .articulo-1 .articulo-text1{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#articulos .articulo-1 .articulo-img1 img{
+    vertical-align: bottom;
+    border-radius: 5px;
+    height: 130px;
+    width: 250px;
+}
+#articulos .articulo-1 .articulo-text1 h3{
+    color: #265073 ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#articulos .articulo-1 .articulo-text1 p{
+    color: #265073;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    height: 200px;
+    width: 230.84px;
+    overflow: auto; /* Mostrar scroll cuando sea necesario */
+    scrollbar-width: none;/* Ocultar la barra de desplazamiento en navegadores compatibles */
+    -ms-overflow-styl:none ;/* Ocultar la barra de desplazamiento en Internet Explorer */
+}
+.articulos .articulo-1 .articulo-text1 p::-webkit-scrollbar {
+    display: none; /* Ocultar la barra de desplazamiento en navegadores webkit (Chrome, Safari, etc.) */
+}
+#articulos .articulo-1 .articulo-text1 a{
+    text-decoration: none;
+    color: #265073;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+}    
+#articulos .articulo-1 .articulo-text1 a p{
+    height: auto;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* ------- ENCABEZADO FORMULARIO ------------ */
+.form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-header {
+    background-color: #2D9596;
+    text-align: center;
+    border-radius: 6px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.title-form{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.form-header h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* ------------- FORMULARIO ------------- */
+.div-form{
+    margin: 30px 0 40px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.div-form img {
+    border-radius: 3px 0px 0px 3px;
+    height: 300px;
+    max-width: 50%;
+}
+.formulario{
+    height: 300px;
+    max-width: 50%;
+    background-color: #F1FADA;
+    border: 1px solid #F1FADA;
+    border-radius: 0px 3px 3px 0px;
+    padding: 50px;
+    padding-top: 15px;
+}
+/* ------------- Campos del Formulario ------------- */
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .form-row label {
+    width: 100%;
+    color: #2D9596;
+  }  
+.form-row input[type="text"] {
+    background-color: #2D9596;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+.form-row input[type="email"] {
+    background-color: #2D9596;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+.form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    background-color: #2D9596;
+    border: 0;
+    border-radius: 6px;
+    min-height: auto;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+    width: 100%;
+}
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #2D9596;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+.form-row button:hover {
+    background-color: #265073;
+}
+.form-row button:active {
+    background-color: #407fc7;
+  }
+/* footer */
+.contacto{
+    margin: 0px;
+    padding: 10px;
+    background-color: #2D9596;
+}
+.contacto a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.contacto h3{
+    color: white;
+}
+
+/*menu*/
+#check{
+    display: none;
+}
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    #barra_navegaciòn{
+        background-color: #265073;
+    }
+    .acerca_de h2{ 
+        text-align: center;
+    }
+    .acerca_de p{   
+        text-align: center;
+    }
+    .checkbtn{
+        display: block;
+    }
+
+    #barra_navegaciòn ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #265073;
+        text-align: center;
+        top: 80px;
+        left: 100%;
+        transition: all 0.5s;
+    }
+    #check:checked ~ ul {
+        left: 0%;
+        display: block;
+    }
+    #barra_navegaciòn nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    #barra_navegaciòn nav ul li a{
+        font-size: 20px;
+    }
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+    #check:checked ~ .checkbtn{
+        color: black;
+    }
+    /* FORMULARIO */
+    .form-header{
+        width: 100%;
+    }
+    .div-form{
+        flex-direction: column;
+        align-items: center;
+        max-width:100%;
+    }
+    .div-form img {
+        display: none;
+    }
+    .formulario {
+        margin: 0;
+        padding: 10px 40px 5px 40px ;
+        max-width:100%;
+        background-color: #F1FADA;
+        border-color: #2D9596;
+        border-radius: 3px;
+    }
+    
+  }

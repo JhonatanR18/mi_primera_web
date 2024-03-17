@@ -194,7 +194,8 @@ color: white;
     border: 1px solid #F1FADA;
     border-radius: 0px 3px 3px 0px;
     padding: 50px;
-    padding-top: 15px;
+    padding-top: 11px;
+    padding-bottom: 0px;
 }
 /* ------------- Campos del Formulario ------------- */
 .form-row {
@@ -247,11 +248,20 @@ color: white;
     cursor: pointer;
 }
 .form-row button:hover {
-    background-color: #265073;
+    background-color: #2D9596;
 }
 .form-row button:active {
-    background-color: #407fc7;
+    background-color: #2D9596;
   }
+.alertas {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 5px;
+    width: 100%;
+    height: auto;
+    color: white;
+}
 /* footer */
 .contacto{
     margin: 0px;
@@ -339,7 +349,7 @@ color: white;
         max-width:100%;
         background-color: #F1FADA;
         border-color: #2D9596;
-        border-radius: 3px;
+        border-radius: 5px;
     }
     
   }

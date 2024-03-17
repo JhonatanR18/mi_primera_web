@@ -6,7 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/11fdfcc338.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
 </head>
 <body>
     <header id="barra_navegaciòn">
@@ -101,15 +100,16 @@
                 </div>
                 <div class="form-row">
                     <label for="email">Email</label>
-                    <input id="email" name="email" type="email">
+                    <input id="email" name="email" type="email" required>
                 </div>
                 <div class="form-row">
                     <label for="mensaje">Mensaje</label>
                     <textarea id="mensaje" name="mensaje"></textarea>
                 </div>
                 <div class="form-row">
-                    <button>Enviar</button>
+                    <button type="submit" id="submit">Enviar</button>
                 </div>
+                <p class="alertas" id="alertas"></p>
             </form>
         </div>
     </footer>
@@ -123,5 +123,7 @@
         <br>
         <a href="#barra_navegaciòn">Ir al comienzo</a>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
